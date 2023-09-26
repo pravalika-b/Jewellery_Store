@@ -29,3 +29,11 @@ Requirements:
 4.GET        &emsp;      &emsp;                   /Products/{id}/{field}     &emsp;  &emsp;  &emsp;  Return a JSON object thespecified {field} info from the Product’s details in the MongoDB
 
 5.GET         &emsp;&emsp;                      /Products/images/{filename}   &emsp;      Given the filename of the image for a product return its static image
+
+6.PUT &emsp;&emsp;/Products/{id}&emsp;&emsp;&emsp;&emsp; Based on the providedidentifier, REPLACE thecorresponding object inthe MongoDB collection.
+
+7.DELETE &emsp;&emsp;/Products/{id} &emsp;&emsp;&emsp;&emsp;Based on the provided identifier, DELETE the corresponding object in the MongoDB collection.
+
+8.PATCH &emsp;&emsp;/Products/{id}/{field}&emsp;&emsp;&emsp;&emsp; Based on the provided identifier, UPDATE the corresponding object’s FIELD in the MongoDB collection.
+
+9.GET&emsp;&emsp; /Products/Page/{skip}/{limit}&emsp;&emsp;&emsp;&emsp; Return a specified number of products after skipping the first skip items

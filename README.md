@@ -1,5 +1,5 @@
 # Jewellery_Store
-Built a small web API using Node.js that accesses a MongoDB
+REACT JS APPLICATION Built a small web API using Node.js that accesses a MongoDB
 database and returns JSON objects which can be consumed by any requesting service (i.e. web
 application, mobile app, etc.)
 
